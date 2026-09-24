@@ -1,4 +1,4 @@
-# Day 3: S3 Bucket
+# S3 Bucket
 
 ## Topics Covered
 - Authentication and Authorization to AWS resources
@@ -48,16 +48,6 @@ winget install Amazon.AWSCLI
 
 # Using chocolatey
 choco install awscli
-```
-
-**macOS:**
-```bash
-# Using official installer
-curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
-sudo installer -pkg AWSCLIV2.pkg -target /
-
-# Using Homebrew
-brew install awscli
 ```
 
 **Ubuntu/Debian:**
@@ -145,5 +135,3 @@ terraform destroy
 - Ensure S3 bucket names are unique and follow naming conventions
 - Review AWS CloudTrail for API call logs if needed
 
-## Next Steps
-Proceed to Day 4 to learn about Terraform state file management and remote backends using S3 and DynamoDB.
